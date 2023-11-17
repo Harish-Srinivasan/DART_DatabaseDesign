@@ -1,7 +1,8 @@
 # DART_DatabaseDesign
 
+Project for CS 6360 Database Design
 
-## Problem Statement 
+## Project Description 
 Dallas Area Road Transport or DART would like one relational database to store the information about their bus transportation system to be able to carry out their work in an organized way. The DART has some major modules such as Bus, Person (Employee and Passenger) and Ticket Sales.
 
 A Person can be an Employee or an A-class Passenger. A person can be both an employee and an A-Class passenger. Details of a person such as Person ID, Name (First, Middle, Last), Address, Gender, Date of Birth (Must be 16 years or older), and Phone number (one person can have more than one phone number) are recorded. The Person ID should have the format “PXXX” where X is a number from 0 to 9. (Hint: you can use regexp_like() function).
@@ -20,3 +21,11 @@ A-Star passengers can have guests who travel for free with them four times a mon
 Bus details such as Bus Number, License plate number, number of seats and other information are stored. Each route has many bus stops. One bus stop is part of only one route. The route and bus stop details are stored. Each bus is parked in a terminal and the information of the terminal such as Terminal ID, Location, Date and Time are stored.
 
 Each bus drives on one particular route and follows a particular time table. The time table information such as day and start time, end time and intervals (15 min, 20 min, 30 min) are recorded. Values for ‘day’ can be {M,T,W,Th,F,Sat,Sun}. A unique ID in the form of “DTXX” is given to each unique record in the timetable. For example, Day-{M}, StartTime- 10:00, EndTime – 20:00, Interval - 15m can have ID DT01 and so on. A bus may have different StartTime, EndTime or Interval for different days.
+
+## Project Phases
+
+**Phase 1:** EER Diagram
+**Phase 2:** Logical Database Design
+**Phase 3:** Implementation - Database creation, SQL Queries
+**Phase 4:** Documentation
+
