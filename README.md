@@ -24,8 +24,8 @@ Each bus drives on one particular route and follows a particular time table. The
 
 ## Project Phases
 
-**Phase 1:** EER Diagram
-**Phase 2:** Logical Database Design
-**Phase 3:** Implementation - Database creation, SQL Queries
-**Phase 4:** Documentation
+**Phase 1:** EER Diagram <br>
+**Phase 2:** Logical Database Design <br>
+**Phase 3:** Implementation - Database creation, SQL Queries <br>
+**Phase 4:** Documentation <br>
 
